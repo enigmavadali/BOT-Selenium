@@ -3,8 +3,8 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 driver = webdriver.Chrome()
-driver.get("http://mydy.dypatil.edu/rait/login/index.php?uname=sur.vad.rt15@rait.ac.in&wantsurl=")
-password = "dypatil@123"
+driver.get("http://mydy.dypatil.edu/rait/login/index.php?uname=(enter_username)&wantsurl=")
+password = ""
 pass_box = driver.find_element_by_id("password")
 pass_box.send_keys(password)
 #pass_box.send_keys(Keys.RETURN)

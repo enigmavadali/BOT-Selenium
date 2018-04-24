@@ -12,7 +12,7 @@ pip install -r requirements.txt
 Extract the driver and place it in the ..\selenium\webdriver\chrome folder in your selenium package.(Downloaded from requirements.txt)
 
 #### Add the file path of the driver to your PATH variable in the environment variables of your system.
-Skipping this step will result in failed execution
+Skipping the above step will result in failed execution
 
 * Run bot.py
 ```terminal

@@ -14,6 +14,21 @@ Extract the driver and place it in the ..\selenium\webdriver\chrome folder in yo
 #### Add the file path of the driver to your PATH variable in the environment variables of your system.
 Skipping the above step will result in failed execution
 
+* Open bot.py file in any editor. 
+Enter your username in the mentioned field as:
+```
+driver.get("http://mydy.dypatil.edu/rait/login/index.php?uname=(enter_username)&wantsurl=")
+```
+Replace the ```enter_username``` with your lms username and then remove the parenthesis.
+It should look something like:
+```driver.get("http://mydy.dypatil.edu/rait/login/index.php?uname=abc.xyz.rt15@rait.ac.in&wantsurl=")```
+
+Enter password
+```password = ""```
+
+Save bot.py
+
+
 * Run bot.py
 ```terminal
 python bot.py

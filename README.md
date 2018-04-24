@@ -21,9 +21,11 @@ driver.get("http://mydy.dypatil.edu/rait/login/index.php?uname=(enter_username)&
 ```
 Replace the ```enter_username``` with your lms username and then remove the parenthesis.
 It should look something like:
+
 ```driver.get("http://mydy.dypatil.edu/rait/login/index.php?uname=abc.xyz.rt15@rait.ac.in&wantsurl=")```
 
 Enter password
+
 ```password = ""```
 
 Save bot.py
